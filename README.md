@@ -21,6 +21,8 @@ found in the components folder.
 - the summary page shows the user an average rating, a chart of all the different ratings values and the 5 latest comments. The user can go back and enter new comment from the results page. 
 
 # Improvements to do 
+- There are some error messages displayed when tests are run due to jsdom vs actual browser in the chart component, this needs to be fixed (doesnt affect the test runs) 
+- I needed to add better testing for the chart and validate correct latest comments displayed on the results page, though this is covered in the context test so should work as intended. 
 - Replace the current storage of ratings with a service. 
 - Add ability to show loading/error states to results components when it has switched to use a service 
 - Show that the submission is being made on the new rating form while the service is being called. 
